@@ -6,9 +6,11 @@
 
 # this R code creates the image - run in RStudio
 
-# you'll need to install these once if not already installed
-# library(ggforce) 
-library(ggplot2) # install.packages("ggplot2") # run this line in console
+# you'll need to install this once if not already installed
+  # run this line in console:
+  # install.packages("ggplot2") 
+
+library(ggplot2)
 
 p <- ggplot() + coord_fixed() + expand_limits(x = c(-15, 100), y = c(-15, 100))
 
